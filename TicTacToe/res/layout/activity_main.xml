@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/bkg" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Tic Tac Toe" />
+        
+            
+   <TableLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:layout_centerVertical="true" >
+        
+    	<TableRow   
+       		android:id="@+id/tableRow1"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:padding="5dip" >
+     
+    		<Button
+        		android:id="@+id/button1"
+        		android:layout_width="80dp"
+        		android:layout_height="80dp"
+        		android:textStyle="bold"
+        		android:textSize="50dp"
+        		android:text=" "
+        		android:onClick="button_click1" />
+
+     		<Button
+         		android:id="@+id/button2"
+         		android:layout_width="80dp"
+         		android:layout_height="80dp"
+         		android:textStyle="bold"
+         		android:textSize="50dp"
+         		android:text=" "
+         		android:onClick="button_click2" />
+
+     		<Button
+         		android:id="@+id/button3"
+         		android:layout_width="80dp"
+         		android:layout_height="80dp"
+         		android:textStyle="bold"
+         		android:textSize="50dp"
+         		android:text=" "
+         		android:onClick="button_click3" />
+     
+     </TableRow>
+     
+    	<TableRow   
+       		android:id="@+id/tableRow2"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:padding="5dip" >
+     
+     		<Button
+        		android:id="@+id/button4"
+        		android:layout_width="80dp"
+       	 	 	android:layout_height="80dp"
+        		android:textStyle="bold"
+        		android:textSize="50dp"
+        		android:text=" "
+        		android:onClick="button_click4" />
+
+     		<Button
+         		android:id="@+id/button5"
+         		android:layout_width="80dp"
+         		android:layout_height="80dp"
+         		android:textStyle="bold"
+         		android:textSize="50dp"
+         		android:text=" "
+         		android:onClick="button_click5" />
+
+     		<Button
+         		android:id="@+id/button6"
+         		android:layout_width="80dp"
+         		android:layout_height="80dp"
+         		android:textStyle="bold"
+         		android:textSize="50dp"
+         		android:text=" "
+         		android:onClick="button_click6" />
+     
+		</TableRow>
+     
+   	 	<TableRow   
+       		android:id="@+id/tableRow3"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:padding="5dip" >
+     
+     		<Button
+        		android:id="@+id/button7"
+        		android:layout_width="80dp"
+        		android:layout_height="80dp"
+        		android:textStyle="bold"
+        		android:textSize="50dp"
+        		android:text=" "
+        		android:onClick="button_click7" />
+
+     		<Button
+         		android:id="@+id/button8"
+         		android:layout_width="80dp"
+         		android:layout_height="80dp"
+         		android:textStyle="bold"
+         		android:textSize="50dp"
+         		android:text=" "
+         		android:onClick="button_click8" />
+
+     		<Button
+         		android:id="@+id/button9"
+         		android:layout_width="80dp"
+         		android:layout_height="80dp"
+         		android:textStyle="bold"
+         		android:textSize="50dp"
+         		android:text=" "
+         		android:onClick="button_click9" />
+     
+     	</TableRow>
+     	
+	</TableLayout>
+	
+</RelativeLayout>
